@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Medilazar';
+    src: url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarRegular.eot');
+    src: url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarRegular.eot') format('embedded-opentype'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarRegular.woff2') format('woff2'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarRegular.woff') format('woff'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarRegular.ttf') format('truetype'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarRegular.svg') format('svg');
+
+}
+
+@font-face {
+    font-family: 'Medilazar';
+    src: url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarMedium.eot');
+    src: url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarMedium.eot') format('embedded-opentype'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarMedium.woff2') format('woff2'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarMedium.woff') format('woff'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarMedium.ttf') format('truetype'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarMedium.svg') format('svg');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Medilazar';
+    src: url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarBold.eot');
+    src: url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarBold.eot') format('embedded-opentype'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarBold.woff2') format('woff2'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarBold.woff') format('woff'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarBold.ttf') format('truetype'),
+    url('https://pharmacycabo.com/wp-content/themes/medilazar/assets/fonts/MedilazarBold.svg') format('svg');
+    font-weight: 600;
+}
