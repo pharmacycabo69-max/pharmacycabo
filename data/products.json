@@ -1,0 +1,522 @@
+[
+ {
+  "id": "8891",
+  "name": "A-Derma Dermalibour+ Cica-Cream Soothing Repairing 50 ml",
+  "price": null,
+  "category": "facial-care",
+  "inStock": false,
+  "img": null
+ },
+ {
+  "id": "8512",
+  "name": "Advil 12 Hour Pain Relief - 12 Tablets",
+  "price": null,
+  "category": "pain-relief",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8514",
+  "name": "Advil FastGel 200mg - 20 Capsules",
+  "price": null,
+  "category": "pain-relief",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8510",
+  "name": "Advil Ibuprofen 200mg - 100 Tablets",
+  "price": null,
+  "category": "pain-relief",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9425",
+  "name": "Amaranthine Obleas Fit Amaranto Taro 40 g",
+  "price": null,
+  "category": "low-sugar-snacks",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8893",
+  "name": "Avène Sunscreen Spray Body SPF 50+ Sensitive Skin",
+  "price": null,
+  "category": "body-sunscreen",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9037",
+  "name": "BB Green Moisturizing Body Milk 250 ml",
+  "price": null,
+  "category": "body-moisturizers",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9039",
+  "name": "BB Green Softening Body Milk 250 ml",
+  "price": null,
+  "category": "body-moisturizers",
+  "inStock": true,
+  "img": "/products/8008277093222.jpg"
+ },
+ {
+  "id": "8656",
+  "name": "Baby Travel Essentials",
+  "price": null,
+  "category": "baby-care",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9467",
+  "name": "Bioderma Sébium H2O 100 ml",
+  "price": null,
+  "category": "anti-acne",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9803",
+  "name": "Borla Ponjita Body for Ducha",
+  "price": null,
+  "category": "body-moisturizers",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9991",
+  "name": "Caribbean Beach Sunscreen with Repellent 150 g",
+  "price": null,
+  "category": "facial-sunscreen",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8506",
+  "name": "Centrum Performance Multivitamin - 30 Tablets",
+  "price": null,
+  "category": "vitamins-supplements",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8599",
+  "name": "Cetaphil Baby Daily Lotion 300 ml",
+  "price": null,
+  "category": "baby-care",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9939",
+  "name": "Chocozero Barra Chocolate with Milk 22 g",
+  "price": null,
+  "category": "low-sugar-snacks",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9971",
+  "name": "Ciel Water purificada natural Bottle 1500 ml pet nr (Lid plana)",
+  "price": null,
+  "category": "still-water",
+  "inStock": true,
+  "img": "/products/7501055304721.jpg"
+ },
+ {
+  "id": "9579",
+  "name": "Cream Body Lubriderm Reparación Intensiva 120 ml",
+  "price": null,
+  "category": "body-moisturizers",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8703",
+  "name": "Dalay 30 Capsules",
+  "price": null,
+  "category": "stress-relief-sleep",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9805",
+  "name": "EUCERIN Dermatoclean Makeup Remover Eyes Biphasic 125 ml, Cleanser with Hyaluronic Acid",
+  "price": null,
+  "category": "facial-moisturizers",
+  "inStock": false,
+  "img": null
+ },
+ {
+  "id": "8597",
+  "name": "Eucerin Aquaphor Healing Ointment Tube 50 g",
+  "price": null,
+  "category": "baby-care",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9353",
+  "name": "Eucerin Dermopure Fluido Facial Moisturizing 50 ml",
+  "price": null,
+  "category": "anti-acne",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9415",
+  "name": "GLOV Glove Makeup Remover Color Blue On the Go Bouncy",
+  "price": null,
+  "category": "micellar-water-makeup-removers",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8889",
+  "name": "Gelbeck 10 Capsules",
+  "price": null,
+  "category": "stress-relief-sleep",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9131",
+  "name": "Genove Spray Pulverizador 125 ml",
+  "price": null,
+  "category": "body-sunscreen",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "10121",
+  "name": "HONEST Diaper Disposable Stage 3 Estampado Cactus Cuties 27 pcs",
+  "price": null,
+  "category": "stage-3",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "10123",
+  "name": "HONEST Diaper Disposable Stage 3 Estampado Flower Power 27 pcs",
+  "price": null,
+  "category": "stage-3",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8572",
+  "name": "Hawaiian Tropic Island Sport Sunscreen SPF 50 - 240 ml",
+  "price": null,
+  "category": "sun-care",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8653",
+  "name": "Hipoglos Zinc Oxide 15% Diaper Rash Cream - 45 g",
+  "price": null,
+  "category": "baby-care",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8558",
+  "name": "Huggies Hydrating Care Baby Wipes - 80 Count",
+  "price": null,
+  "category": "baby-care",
+  "inStock": true,
+  "img": "/products/huggies-baby-wipes-80.jpg"
+ },
+ {
+  "id": "9955",
+  "name": "ISDIN Repairing Lip 10 ml",
+  "price": null,
+  "category": "facial-moisturizers",
+  "inStock": false,
+  "img": null
+ },
+ {
+  "id": "8587",
+  "name": "Isdin Post Solar After Sun Lotion 200 ml",
+  "price": null,
+  "category": "sun-care",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8556",
+  "name": "Johnson's Baby Shampoo Original - 100ml",
+  "price": null,
+  "category": "baby-care",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9791",
+  "name": "Laggs Antiviral Green Tea Chamomile 24 Sachets",
+  "price": null,
+  "category": "tea-bags-infusions",
+  "inStock": false,
+  "img": null
+ },
+ {
+  "id": "9987",
+  "name": "Laggs Sleeping Time 24 Sachets",
+  "price": null,
+  "category": "tea-bags-infusions",
+  "inStock": false,
+  "img": null
+ },
+ {
+  "id": "9639",
+  "name": "Lotion Clarant B3 Makeup Remover Dual 200 ml Bottle",
+  "price": null,
+  "category": "micellar-water-makeup-removers",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9051",
+  "name": "Lotion Secret Scents Mango",
+  "price": null,
+  "category": "body-moisturizers",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8961",
+  "name": "Magnesium 45 Caps 500 mg",
+  "price": null,
+  "category": "magnesium",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9655",
+  "name": "Mini Snacks Choco Zero without Sugar 2 Pack 30 g",
+  "price": null,
+  "category": "low-sugar-snacks",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8595",
+  "name": "Mustela Hydra Bébé Body Lotion 300 ml",
+  "price": null,
+  "category": "baby-care",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8805",
+  "name": "NIDO Kinder 1+ Food for Toddlers Lactose-Free 800 g",
+  "price": null,
+  "category": "nido",
+  "inStock": true,
+  "img": "/products/7501059284869_1_4-300x300.jpg"
+ },
+ {
+  "id": "9041",
+  "name": "NIVEA SUN Sunscreen Body Protect & Sensitive FPS50+ 125 ml Sun Lotion in Cream",
+  "price": null,
+  "category": "facial-sunscreen",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9921",
+  "name": "Naturelab Vitamin D3+Vitamin C+Zinc 60 Capsules",
+  "price": null,
+  "category": "vitamin-d",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9763",
+  "name": "Neutro Balance Baby Soap Body Soft 90 g",
+  "price": null,
+  "category": "body-moisturizers",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9435",
+  "name": "Nivea Sun Control Shine SPF 50 50 ml",
+  "price": null,
+  "category": "facial-sunscreen",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9377",
+  "name": "Nuun Hydration Sport Fruit Punch 55 g",
+  "price": null,
+  "category": "performance-energy",
+  "inStock": false,
+  "img": null
+ },
+ {
+  "id": "9379",
+  "name": "Nuun Hydration Sport Strawberry Lemonade 55 g",
+  "price": null,
+  "category": "hydration-electrolytes",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8985",
+  "name": "Nuun Tri Lime - Lemon 56 g",
+  "price": null,
+  "category": "hydration-electrolytes",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9121",
+  "name": "Nytol 50 mg with 8 Tablets",
+  "price": null,
+  "category": "stress-relief-sleep",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9735",
+  "name": "Orbit Flavor Polar Mint without Sugar 4 Pellet 5.6 g",
+  "price": null,
+  "category": "low-sugar-snacks",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8526",
+  "name": "Pepto-Bismol Cherry Liquid - 236ml",
+  "price": null,
+  "category": "antacids-digestive",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8530",
+  "name": "Redoxon AOX Vitamin C + D + Zinc - 10 Effervescent Tablets",
+  "price": null,
+  "category": "vitamins-supplements",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "10125",
+  "name": "Shampoo in Barra Aloe Vera for Hair Dry",
+  "price": null,
+  "category": "shampoo",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9385",
+  "name": "Solanum Tea Ginger + Lemon + Jazmin 6 Bags",
+  "price": null,
+  "category": "tea-bags-infusions",
+  "inStock": false,
+  "img": null
+ },
+ {
+  "id": "9865",
+  "name": "Sun Protector ISDIN 50+ Transparent Spray Wet Skin Ped 250 ml",
+  "price": null,
+  "category": "body-sunscreen",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9491",
+  "name": "Sun Protector ISDIN 50+ Wet Skin 250 ml",
+  "price": null,
+  "category": "body-sunscreen",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9127",
+  "name": "Sunscreen Ahorro SPF 50 200 ml",
+  "price": null,
+  "category": "body-sunscreen",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9043",
+  "name": "Sunscreen Caribbean Beach Adults SPF 45 150 g",
+  "price": null,
+  "category": "body-sunscreen",
+  "inStock": true,
+  "img": "/products/7503009126564.jpeg"
+ },
+ {
+  "id": "9985",
+  "name": "Tea Laggs Garganta Plus 24 Sachets",
+  "price": null,
+  "category": "tea-bags-infusions",
+  "inStock": false,
+  "img": null
+ },
+ {
+  "id": "8520",
+  "name": "Theraflu Daytime Tea - Cold & Flu Relief - 10 Sachets",
+  "price": null,
+  "category": "cold-flu",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9979",
+  "name": "Turmeric + Vitamin D3 30 Capsules Me Quiero Bien",
+  "price": null,
+  "category": "vitamin-d",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8500",
+  "name": "Tylenol 500mg - 20 Tablets",
+  "price": null,
+  "category": "pain-relief",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "8965",
+  "name": "Umbrella Sun Protector Plus Spray 120 g",
+  "price": null,
+  "category": "body-sunscreen",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "10119",
+  "name": "VENUS Cream for Shaving Vanilla",
+  "price": null,
+  "category": "razors-cartridges",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9895",
+  "name": "Wise Tree Vitamin D3 5,000 Ui Dietary Supplement 60 Capsules",
+  "price": null,
+  "category": "vitamin-d",
+  "inStock": true,
+  "img": null
+ },
+ {
+  "id": "9949",
+  "name": "Wise Tree Vitamin D3 5,000 Ui Dietary Supplement 90 Capsules",
+  "price": null,
+  "category": "vitamin-d",
+  "inStock": true,
+  "img": "/products/7506531000029.jpeg"
+ }
+]
