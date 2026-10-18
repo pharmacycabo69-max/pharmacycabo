@@ -7,6 +7,19 @@ import OtcNote from '@/components/OtcNote';
 import { getDict, isLocale } from '@/lib/i18n';
 import { groups, products } from '@/lib/products';
 
+import type { Metadata } from 'next';
+import { alternatesFor } from '@/lib/seo';
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  if (!isLocale(lang)) return {};
+  return {
+    title: `${getDict(lang).products.title} | Pharmacy Cabo`,
+    description: getDict(lang).products.text,
+    alternates: alternatesFor(lang, { en: '/en/products/', es: '/es/products/' }),
+  };
+}
+
 export default async function ProductsPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();

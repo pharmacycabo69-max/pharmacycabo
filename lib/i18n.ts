@@ -11,9 +11,9 @@ export function waLink(text: string) {
 
 const en = {
   meta: {
-    title: 'Pharmacy Cabo | Licensed Pharmacy Delivery in Los Cabos',
+    title: 'Pharmacy Cabo | Pharmacy Delivery, IV Therapy & Doctor Visits in Los Cabos',
     description:
-      'Licensed pharmacy in Los Cabos. Over-the-counter medicine, personal care and first-aid supplies delivered to hotels, villas and marinas in Cabo San Lucas and San José del Cabo.',
+      'Licensed pharmacy delivery, mobile IV therapy, and in-person or video doctor visits for hotels, villas and yachts in Los Cabos. Over-the-counter products only. Order or book by WhatsApp.',
   },
   nav: { services: 'Services', how: 'How it works', coverage: 'Coverage', products: 'Products', faq: 'FAQ' },
   cta: { whatsapp: 'WhatsApp now', call: 'Call', message: 'Message us on WhatsApp', concierge: 'Call our concierge' },
@@ -57,14 +57,9 @@ const en = {
   typical: 'Typical delivery',
   services: {
     eyebrow: 'Everything coordinated in one place',
-    title: 'Concierge services for your stay.',
+    title: 'Pharmacy and healthcare services for your stay.',
     text: 'Tell us what you need and where you are. We confirm availability, share clear pricing, and arrange the handoff.',
-    items: [
-      ['Pharmacy & Wellness', 'General OTC essentials, first-aid supplies, personal care, hydration, and everyday wellness products coordinated by our bilingual concierge team.'],
-      ['Beach Essentials', 'Reef-safe sunscreen, aloe, rash guards, hats, hydration packs, and travel comfort items.'],
-      ['Food & Beverages', 'Groceries, snacks, hydration, and fresh provisions for your villa, yacht, or room.'],
-      ['Concierge Requests', 'Forgotten travel essentials, personal-care items, convenience requests, and guest-specific needs.'],
-    ],
+    cta: 'Learn more',
   },
   banner: {
     eyebrow: 'Licensed pharmacy delivery to hotels, villas & marinas',
@@ -197,9 +192,9 @@ type Dict = typeof en;
 
 const es: Dict = {
   meta: {
-    title: 'Pharmacy Cabo | Farmacia con licencia a domicilio en Los Cabos',
+    title: 'Pharmacy Cabo | Farmacia a domicilio, sueroterapia y consultas médicas en Los Cabos',
     description:
-      'Farmacia con licencia en Los Cabos. Medicamentos de libre venta, cuidado personal y artículos de primeros auxilios a domicilio en hoteles, villas y marinas de Cabo San Lucas y San José del Cabo.',
+      'Farmacia con licencia a domicilio, sueroterapia móvil y consultas médicas presenciales o por video para hoteles, villas y yates en Los Cabos. Solo productos de libre venta. Pide o reserva por WhatsApp.',
   },
   nav: { services: 'Servicios', how: 'Cómo funciona', coverage: 'Cobertura', products: 'Productos', faq: 'Preguntas' },
   cta: { whatsapp: 'WhatsApp ahora', call: 'Llamar', message: 'Escríbenos por WhatsApp', concierge: 'Llama a nuestro concierge' },
@@ -243,14 +238,9 @@ const es: Dict = {
   typical: 'Entrega típica',
   services: {
     eyebrow: 'Todo coordinado en un solo lugar',
-    title: 'Servicios de concierge para tu estancia.',
+    title: 'Servicios de farmacia y salud para tu estancia.',
     text: 'Dinos qué necesitas y dónde estás. Confirmamos disponibilidad, compartimos precios claros y coordinamos la entrega.',
-    items: [
-      ['Farmacia y bienestar', 'Productos de libre venta, primeros auxilios, cuidado personal, hidratación y bienestar diario, coordinados por nuestro equipo bilingüe.'],
-      ['Esenciales de playa', 'Protector solar biodegradable, aloe, rash guards, sombreros, hidratación y artículos de comodidad para viaje.'],
-      ['Alimentos y bebidas', 'Despensa, botanas, hidratación y provisiones frescas para tu villa, yate o habitación.'],
-      ['Pedidos especiales', 'Artículos de viaje olvidados, cuidado personal, encargos de conveniencia y necesidades de cada huésped.'],
-    ],
+    cta: 'Conocer más',
   },
   banner: {
     eyebrow: 'Farmacia con licencia a domicilio en hoteles, villas y marinas',

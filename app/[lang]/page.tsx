@@ -8,8 +8,24 @@ import OtcNote from '@/components/OtcNote';
 import LicensedInfo from '@/components/LicensedInfo';
 import { getDict, isLocale, PHONE_DISPLAY, PHONE_TEL, waLink } from '@/lib/i18n';
 import { products } from '@/lib/products';
+import JsonLd from '@/components/JsonLd';
+import { pharmacyJsonLd } from '@/lib/jsonld';
+import { serviceContent, serviceIcons, serviceIds, servicePath } from '@/lib/services';
+import { alternatesFor } from '@/lib/seo';
 
-const icons = ['✚', '☀', '◇', '★'];
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  if (!isLocale(lang)) return {};
+  const d = getDict(lang);
+  return {
+    title: d.meta.title,
+    description: d.meta.description,
+    alternates: alternatesFor(lang, { en: '/en/', es: '/es/' }),
+    openGraph: { title: d.meta.title, description: d.meta.description, type: 'website', url: `/${lang}/` },
+    twitter: { card: 'summary_large_image', title: d.meta.title, description: d.meta.description },
+  };
+}
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -19,6 +35,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
   return (
     <>
+      <JsonLd data={pharmacyJsonLd(lang)} />
       <Header lang={lang} />
       <main>
         {/* Hero */}
@@ -86,12 +103,14 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <p className="eyebrow">{d.services.eyebrow}</p>
             <h2 className="h2">{d.services.title}</h2>
             <p className="mt-3 max-w-2xl text-ink/70">{d.services.text}</p>
-            <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              {d.services.items.map(([t, s], i) => (
-                <div key={t} className="card flex gap-4">
-                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-soft text-xl text-teal">{icons[i]}</span>
-                  <div><p className="font-semibold">{t}</p><p className="mt-1 text-sm text-ink/70">{s}</p></div>
-                </div>
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              {serviceIds.map((id) => (
+                <Link key={id} href={servicePath(lang, id)} className="card group flex flex-col transition hover:border-teal hover:shadow-md">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-teal-soft text-2xl">{serviceIcons[id]}</span>
+                  <p className="mt-4 font-semibold">{serviceContent[lang][id].nav}</p>
+                  <p className="mt-1 flex-1 text-sm text-ink/70">{serviceContent[lang][id].card}</p>
+                  <span className="mt-4 text-sm font-semibold text-teal group-hover:underline">{d.services.cta} →</span>
+                </Link>
               ))}
             </div>
           </div>

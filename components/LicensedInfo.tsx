@@ -3,10 +3,10 @@ import { business, isPlaceholder } from '@/lib/business';
 
 const keys = ['legalName', 'address', 'cofepris', 'responsibleName', 'responsibleLicense', 'storeHours'] as const;
 
-export function LicensedFields({ lang, dark = false }: { lang: Locale; dark?: boolean }) {
+export function LicensedFields({ lang, dark = false, single = false }: { lang: Locale; dark?: boolean; single?: boolean }) {
   const d = getDict(lang);
   return (
-    <dl className="grid gap-x-8 gap-y-3 text-left text-sm sm:grid-cols-2">
+    <dl className={`grid gap-x-8 gap-y-3 text-left text-sm ${single ? '' : 'sm:grid-cols-2'}`}>
       {keys.map((k) => {
         const v = business[k];
         return (

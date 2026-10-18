@@ -5,11 +5,15 @@ import Footer from '@/components/Footer';
 import FloatingCTA from '@/components/FloatingCTA';
 import { getDict, isLocale } from '@/lib/i18n';
 import { business, isPlaceholder } from '@/lib/business';
+import { alternatesFor } from '@/lib/seo';
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   if (!isLocale(lang)) return {};
-  return { title: `${getDict(lang).legal.title} | Pharmacy Cabo` };
+  return {
+    title: `${getDict(lang).legal.title} | Pharmacy Cabo`,
+    alternates: alternatesFor(lang, { en: '/en/legal/', es: '/es/legal/' }),
+  };
 }
 
 export default async function LegalPage({ params }: { params: Promise<{ lang: string }> }) {
