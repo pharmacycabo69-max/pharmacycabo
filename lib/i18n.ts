@@ -1,9 +1,9 @@
 export const locales = ['en', 'es'] as const;
 export type Locale = (typeof locales)[number];
 
-export const WHATSAPP = '526242673177';
-export const PHONE_DISPLAY = '+52 624 267 3177';
-export const PHONE_TEL = '+526242673177';
+export const WHATSAPP = '526242261023';
+export const PHONE_DISPLAY = '+52 624 226 1023';
+export const PHONE_TEL = '+526242261023';
 
 export function waLink(text: string) {
   return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`;
