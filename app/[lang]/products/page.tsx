@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FloatingCTA from '@/components/FloatingCTA';
 import Catalog from '@/components/Catalog';
 import { getDict, isLocale } from '@/lib/i18n';
 import { groups, products } from '@/lib/products';
@@ -21,6 +22,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
         </div>
       </main>
       <Footer lang={lang} />
+      <FloatingCTA lang={lang} />
     </>
   );
 }

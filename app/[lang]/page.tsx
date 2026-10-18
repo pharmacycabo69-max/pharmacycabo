@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FloatingCTA from '@/components/FloatingCTA';
 import ProductCard from '@/components/ProductCard';
 import { getDict, isLocale, PHONE_DISPLAY, PHONE_TEL, waLink } from '@/lib/i18n';
 import { products } from '@/lib/products';
@@ -206,6 +207,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </section>
       </main>
       <Footer lang={lang} />
+      <FloatingCTA lang={lang} />
     </>
   );
 }
