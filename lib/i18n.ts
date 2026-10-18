@@ -18,7 +18,7 @@ const en = {
   nav: { services: 'Services', how: 'How it works', coverage: 'Coverage', products: 'Products', faq: 'FAQ' },
   cta: { whatsapp: 'WhatsApp now', call: 'Call', message: 'Message us on WhatsApp', concierge: 'Call our concierge' },
   status: 'Available now · Drivers on standby',
-  hours: 'Store 8AM–6PM · Delivery coordination 24/7',
+  hours: 'Store 9AM–10PM · Delivery coordination 24/7',
   brandTag: 'LICENSED PHARMACY DELIVERY',
   hero: {
     badge: 'Bilingual team available now',
@@ -127,7 +127,7 @@ const en = {
     eyebrow: 'Helpful answers',
     title: 'Frequently asked questions.',
     items: [
-      ['Are you available 24/7?', 'Our store operates from 8AM to 6PM, while delivery coordination is available around the clock for last-minute travel essentials and guest convenience requests.'],
+      ['Are you available 24/7?', 'Our store operates from 9AM to 10PM, while delivery coordination is available around the clock for last-minute travel essentials and guest convenience requests.'],
       ['How can I pay?', 'We accept Visa, Mastercard, American Express, wire transfer, and cash in USD or MXN. A card terminal can be brought to the handoff.'],
       ['Can you deliver to my hotel or villa?', 'Yes. We coordinate with you for lobby, suite, villa gate, or another property-approved handoff point.'],
       ['Do you deliver to yachts?', 'Yes, at Cabo San Lucas Marina and Puerto Los Cabos. Please share your slip number and captain or crew contact.'],
@@ -136,7 +136,7 @@ const en = {
     ],
   },
   final: { eyebrow: 'Ready when you are', title: 'Let us get you sorted.', text: 'One WhatsApp message is all it takes.', cta: 'Start on WhatsApp', waText: 'Hello! I need help from Pharmacy Cabo.' },
-  footer: { line: 'Store 8AM–6PM · Delivery 24/7 · Los Cabos, B.C.S., Mexico', rights: 'All rights reserved.' },
+  footer: { line: 'Store 9AM–10PM · Delivery 24/7 · Los Cabos, B.C.S., Mexico', rights: 'All rights reserved.' },
   licensed: {
     eyebrow: 'Licensed pharmacy',
     title: 'A licensed pharmacy you can verify.',
@@ -204,7 +204,7 @@ const es: Dict = {
   nav: { services: 'Servicios', how: 'Cómo funciona', coverage: 'Cobertura', products: 'Productos', faq: 'Preguntas' },
   cta: { whatsapp: 'WhatsApp ahora', call: 'Llamar', message: 'Escríbenos por WhatsApp', concierge: 'Llama a nuestro concierge' },
   status: 'Disponible ahora · Repartidores listos',
-  hours: 'Tienda 8AM–6PM · Coordinación de entregas 24/7',
+  hours: 'Tienda 9AM–10PM · Coordinación de entregas 24/7',
   brandTag: 'FARMACIA CON LICENCIA A DOMICILIO',
   hero: {
     badge: 'Equipo bilingüe disponible ahora',
@@ -313,7 +313,7 @@ const es: Dict = {
     eyebrow: 'Respuestas útiles',
     title: 'Preguntas frecuentes.',
     items: [
-      ['¿Están disponibles 24/7?', 'Nuestra tienda opera de 8AM a 6PM, y la coordinación de entregas está disponible todo el día para necesidades de última hora.'],
+      ['¿Están disponibles 24/7?', 'Nuestra tienda opera de 9AM a 10PM, y la coordinación de entregas está disponible todo el día para necesidades de última hora.'],
       ['¿Cómo puedo pagar?', 'Aceptamos Visa, Mastercard, American Express, transferencia y efectivo en USD o MXN. Podemos llevar terminal de tarjeta a la entrega.'],
       ['¿Entregan en mi hotel o villa?', 'Sí. Coordinamos contigo la entrega en lobby, suite, portón de villa u otro punto aprobado por la propiedad.'],
       ['¿Entregan en yates?', 'Sí, en la Marina de Cabo San Lucas y Puerto Los Cabos. Comparte tu número de muelle y el contacto del capitán o tripulación.'],
@@ -322,7 +322,7 @@ const es: Dict = {
     ],
   },
   final: { eyebrow: 'Listos cuando tú lo estés', title: 'Déjanos resolverlo.', text: 'Un solo mensaje de WhatsApp es todo lo que necesitas.', cta: 'Empezar en WhatsApp', waText: '¡Hola! Necesito ayuda de Pharmacy Cabo.' },
-  footer: { line: 'Tienda 8AM–6PM · Entregas 24/7 · Los Cabos, B.C.S., México', rights: 'Todos los derechos reservados.' },
+  footer: { line: 'Tienda 9AM–10PM · Entregas 24/7 · Los Cabos, B.C.S., México', rights: 'Todos los derechos reservados.' },
   licensed: {
     eyebrow: 'Farmacia con licencia',
     title: 'Una farmacia con licencia que puedes verificar.',

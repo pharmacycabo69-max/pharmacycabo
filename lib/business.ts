@@ -6,7 +6,7 @@ export const business = {
   cofepris: '030400066',
   responsibleName: 'ROSIBEL NUÑEZ ROJO',
   responsibleLicense: '7408277',
-  storeHours: '09:00 TO 22:00',
+  storeHours: '9:00 AM – 10:00 PM',
   privacyEmail: 'pharmacycabo69@gmail.com',
 };
 
