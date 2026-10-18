@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     description: d.meta.description,
     alternates: { languages: { en: '/en/', es: '/es/' } },
     openGraph: { title: d.meta.title, description: d.meta.description, type: 'website' },
+    twitter: { card: 'summary_large_image', title: d.meta.title, description: d.meta.description },
   };
 }
 

@@ -4,6 +4,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FloatingCTA from '@/components/FloatingCTA';
 import ProductCard from '@/components/ProductCard';
+import OtcNote from '@/components/OtcNote';
+import LicensedInfo from '@/components/LicensedInfo';
 import { getDict, isLocale, PHONE_DISPLAY, PHONE_TEL, waLink } from '@/lib/i18n';
 import { products } from '@/lib/products';
 
@@ -112,6 +114,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <p className="eyebrow">{d.products.eyebrow}</p>
           <h2 className="h2">{d.products.title}</h2>
           <p className="mt-3 max-w-2xl text-ink/70">{d.products.text}</p>
+          <OtcNote lang={lang} />
           <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-4">
             {featured.map((p) => <ProductCard key={p.id} p={p} lang={lang} />)}
           </div>
@@ -205,6 +208,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <p className="mt-4 text-white/60">{PHONE_DISPLAY}</p>
           </div>
         </section>
+        <LicensedInfo lang={lang} />
       </main>
       <Footer lang={lang} />
       <FloatingCTA lang={lang} />

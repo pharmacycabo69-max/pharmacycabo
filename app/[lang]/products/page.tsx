@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FloatingCTA from '@/components/FloatingCTA';
 import Catalog from '@/components/Catalog';
+import OtcNote from '@/components/OtcNote';
 import { getDict, isLocale } from '@/lib/i18n';
 import { groups, products } from '@/lib/products';
 
@@ -17,6 +18,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
         <p className="eyebrow">{d.products.eyebrow}</p>
         <h1 className="h2">{d.products.title}</h1>
         <p className="mt-3 max-w-2xl text-ink/70">{d.products.text}</p>
+        <OtcNote lang={lang} />
         <div className="mt-8">
           <Catalog lang={lang} items={products} groups={groups} />
         </div>

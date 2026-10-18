@@ -11,25 +11,25 @@ export function waLink(text: string) {
 
 const en = {
   meta: {
-    title: 'Pharmacy Cabo | 24/7 Concierge Delivery in Los Cabos',
+    title: 'Pharmacy Cabo | Licensed Pharmacy Delivery in Los Cabos',
     description:
-      'Discreet, bilingual concierge delivery for hotels, villas, and yachts across Los Cabos. Available 24/7. Contact Pharmacy Cabo by WhatsApp.',
+      'Licensed pharmacy in Los Cabos. Over-the-counter medicine, personal care and first-aid supplies delivered to hotels, villas and marinas in Cabo San Lucas and San José del Cabo.',
   },
   nav: { services: 'Services', how: 'How it works', coverage: 'Coverage', products: 'Products', faq: 'FAQ' },
   cta: { whatsapp: 'WhatsApp now', call: 'Call', message: 'Message us on WhatsApp', concierge: 'Call our concierge' },
   status: 'Available now · Drivers on standby',
   hours: 'Store 8AM–6PM · Delivery coordination 24/7',
-  brandTag: 'PREMIUM DELIVERY CONCIERGE',
+  brandTag: 'LICENSED PHARMACY DELIVERY',
   hero: {
     badge: 'Bilingual team available now',
-    title: 'Pharmacy & wellness concierge, delivered with premium care.',
-    text: 'Discreet, bilingual delivery of everyday pharmacy essentials, personal care, wellness items, and concierge requests across Los Cabos. Trusted by luxury hotels, private villas, and yachts — all coordinated through a single WhatsApp message.',
+    title: 'Licensed pharmacy delivery in Los Cabos.',
+    text: 'Over-the-counter medicine, personal care, and first-aid supplies delivered by our bilingual team to hotels, villas, and marinas in Cabo San Lucas and San José del Cabo. Fast, reliable service with transparent pricing — order by WhatsApp or phone.',
     chips: ['No app required', 'Cash or card on delivery', 'Bilingual team'],
-    waText: 'Hello! I need a discreet delivery in Los Cabos.',
+    waText: 'Hello! I would like to order over-the-counter products for delivery in Los Cabos.',
   },
   desk: {
     title: 'Los Cabos delivery desk',
-    sub: 'Fast, discreet help wherever you are staying.',
+    sub: 'Fast, reliable pharmacy help wherever you are staying.',
     stats: [
       ['24/7', 'Delivery coordination'],
       ['30–90', 'Minute ETA'],
@@ -41,10 +41,10 @@ const en = {
   standard: {
     eyebrow: 'The Pharmacy Cabo standard',
     title: 'Clear coordination with a luxury hospitality feel.',
-    text: 'Every request is handled by a real bilingual team with clear pricing, discreet coordination, and delivery adapted to your property or vessel.',
+    text: 'Every request is handled by a real bilingual team with transparent pricing, reliable coordination, and delivery adapted to your property or vessel.',
     items: [
       ['Bilingual Team', 'English & Spanish guest support'],
-      ['Discreet Delivery', 'Lobby, suite, or villa handoff'],
+      ['Reliable Delivery', 'Lobby, suite, or villa handoff'],
       ['Luxury Zones', 'Palmilla, Pedregal, Corridor'],
       ['Yacht Service', 'Marina provisioning on request'],
     ],
@@ -62,16 +62,16 @@ const en = {
     items: [
       ['Pharmacy & Wellness', 'General OTC essentials, first-aid supplies, personal care, hydration, and everyday wellness products coordinated by our bilingual concierge team.'],
       ['Beach Essentials', 'Reef-safe sunscreen, aloe, rash guards, hats, hydration packs, and travel comfort items.'],
-      ['Food & Beverages', 'Groceries, premium mixers, spirits, snacks, and fresh provisions for your villa, yacht, or in-room bar.'],
+      ['Food & Beverages', 'Groceries, snacks, hydration, and fresh provisions for your villa, yacht, or room.'],
       ['Concierge Requests', 'Forgotten travel essentials, personal-care items, convenience requests, and guest-specific needs.'],
     ],
   },
   banner: {
-    eyebrow: 'Discreet hotel, villa & yacht handoff',
+    eyebrow: 'Licensed pharmacy delivery to hotels, villas & marinas',
     title: 'Premium service that feels effortless.',
     text: 'From the first WhatsApp message to the final handoff, our bilingual team coordinates every detail with the care expected by Los Cabos guests and concierges.',
     cta: 'Arrange a delivery',
-    waText: 'Hello! I need a discreet delivery in Los Cabos.',
+    waText: 'Hello! I would like to order over-the-counter products for delivery in Los Cabos.',
   },
   products: {
     eyebrow: 'Everyday essentials',
@@ -87,6 +87,7 @@ const en = {
     count: (n: number) => `${n} products`,
     waText: (name: string) => `Hello! I would like to order: ${name}`,
     noPrice: 'Price on request',
+    otcNote: 'We only deliver over-the-counter products. Prescription medication is not available through this service.',
   },
   steps: {
     eyebrow: 'Simple from the first message',
@@ -95,7 +96,7 @@ const en = {
     items: [
       ['Message us', 'Reach us by WhatsApp or phone and share what you need, plus your property, suite, gate, or marina slip.'],
       ['Confirm & pay', 'Receive a clear quote with product photos. Pay by card, transfer, or cash in USD or MXN.'],
-      ['Receive discreetly', 'We coordinate delivery to your hotel, villa, or yacht, typically within 30–90 minutes.'],
+      ['Receive your order', 'We coordinate delivery to your hotel, villa, or yacht, typically within 30–90 minutes.'],
     ],
   },
   trusted: ['One&Only Palmilla', 'Chileno Bay', 'Las Ventanas al Paraíso', 'Solaz', 'Waldorf Astoria Pedregal', 'Nobu Los Cabos', 'Esperanza', 'Montage'],
@@ -120,7 +121,6 @@ const en = {
     items: [
       ['We realized we had forgotten several travel essentials. They answered in under a minute and had everything at our villa in 40. Excellent service.', 'Jennifer M.', 'Pedregal · Family trip'],
       ['We provisioned our yacht through them three times this season. Reliable, professional, and they bring exactly what you order.', 'David R.', 'CSL Marina · Yacht charter'],
-      ['The discretion matters. Our concierge recommends them and now I understand why — no awkwardness, no questions, just service.', 'Sarah K.', 'Palmilla · Returning guest'],
     ],
   },
   faq: {
@@ -137,6 +137,49 @@ const en = {
   },
   final: { eyebrow: 'Ready when you are', title: 'Let us get you sorted.', text: 'One WhatsApp message is all it takes.', cta: 'Start on WhatsApp', waText: 'Hello! I need help from Pharmacy Cabo.' },
   footer: { line: 'Store 8AM–6PM · Delivery 24/7 · Los Cabos, B.C.S., Mexico', rights: 'All rights reserved.' },
+  licensed: {
+    eyebrow: 'Licensed pharmacy',
+    title: 'A licensed pharmacy you can verify.',
+    text: 'Pharmacy Cabo operates as a licensed pharmacy in Los Cabos, B.C.S., Mexico. We deliver over-the-counter products only.',
+    labels: {
+      legalName: 'Legal name',
+      address: 'Physical address',
+      cofepris: 'COFEPRIS sanitary license / operating notice no.',
+      responsibleName: 'Responsible pharmacist',
+      responsibleLicense: 'Professional license (cédula)',
+      storeHours: 'Pharmacy hours',
+    },
+  },
+  legal: {
+    link: 'Privacy & Terms',
+    title: 'Privacy Notice & Terms',
+    draft: 'Basic template — have it reviewed by your legal advisor before relying on it.',
+    updated: 'Last updated',
+    privacy: {
+      title: 'Privacy Notice',
+      sections: [
+        ['Who is responsible', 'The data controller is the legal entity listed in the "Licensed pharmacy" section of this site.'],
+        ['Data we collect', 'Name, phone number, delivery address or property/marina details, and the contents of your orders and messages sent to us by WhatsApp, phone, or this website.'],
+        ['How we use it', 'To confirm availability and pricing, arrange and complete deliveries, provide customer support, and meet our legal and sanitary obligations. We do not sell your personal data.'],
+        ['Sharing', 'We share data only with the delivery and payment providers needed to fulfil your order, and with authorities when required by law.'],
+        ['Your rights', 'You may access, rectify, cancel, or object to the use of your data (ARCO rights) at any time by writing to the privacy contact below.'],
+        ['Contact', 'Privacy contact'],
+        ['Changes', 'We may update this notice. The latest version is always published on this page.'],
+      ],
+    },
+    terms: {
+      title: 'Terms of Service',
+      sections: [
+        ['Over-the-counter products only', 'We only deliver over-the-counter products. Prescription medication is not available through this service. We do not sell or deliver controlled substances.'],
+        ['Orders and availability', 'Orders are placed by WhatsApp or phone. Availability and final pricing are confirmed with you before dispatch.'],
+        ['Pricing and payment', 'Prices are quoted in USD or MXN. Delivery fees depend on zone and time and are disclosed before dispatch. Payment is accepted by card, transfer, or cash.'],
+        ['Delivery', 'Delivery times are estimates and may vary with traffic, weather, and location. Someone must be available to receive the order at the agreed handoff point.'],
+        ['Returns', 'For health and safety reasons, products cannot be returned once delivered, except if they are damaged, defective, or incorrect. Contact us promptly if that happens.'],
+        ['Health information', 'Information on this site is not medical advice. Read product labels and consult a healthcare professional or our responsible pharmacist if you have questions.'],
+        ['Governing law', 'These terms are governed by the laws of Mexico and the courts of Baja California Sur.'],
+      ],
+    },
+  },
   categories: {
     'skin-care': 'Skin Care',
     'sun-care': 'Sun Care',
@@ -154,25 +197,25 @@ type Dict = typeof en;
 
 const es: Dict = {
   meta: {
-    title: 'Pharmacy Cabo | Concierge Médico 24/7 en Los Cabos',
+    title: 'Pharmacy Cabo | Farmacia con licencia a domicilio en Los Cabos',
     description:
-      'Entrega discreta y bilingüe para hoteles, villas y yates en Los Cabos. Disponible 24/7. Contacta a Pharmacy Cabo por WhatsApp.',
+      'Farmacia con licencia en Los Cabos. Medicamentos de libre venta, cuidado personal y artículos de primeros auxilios a domicilio en hoteles, villas y marinas de Cabo San Lucas y San José del Cabo.',
   },
   nav: { services: 'Servicios', how: 'Cómo funciona', coverage: 'Cobertura', products: 'Productos', faq: 'Preguntas' },
   cta: { whatsapp: 'WhatsApp ahora', call: 'Llamar', message: 'Escríbenos por WhatsApp', concierge: 'Llama a nuestro concierge' },
   status: 'Disponible ahora · Repartidores listos',
   hours: 'Tienda 8AM–6PM · Coordinación de entregas 24/7',
-  brandTag: 'CONCIERGE DE ENTREGA PREMIUM',
+  brandTag: 'FARMACIA CON LICENCIA A DOMICILIO',
   hero: {
     badge: 'Equipo bilingüe disponible ahora',
-    title: 'Concierge de farmacia y bienestar, entregado con cuidado premium.',
-    text: 'Entrega discreta y bilingüe de artículos de farmacia, cuidado personal, bienestar y pedidos especiales en todo Los Cabos. De confianza para hoteles de lujo, villas privadas y yates — todo coordinado con un solo mensaje de WhatsApp.',
+    title: 'Farmacia con licencia a domicilio en Los Cabos.',
+    text: 'Medicamentos de libre venta, cuidado personal y artículos de primeros auxilios entregados por nuestro equipo bilingüe en hoteles, villas y marinas de Cabo San Lucas y San José del Cabo. Servicio rápido y confiable, con precios transparentes — pide por WhatsApp o teléfono.',
     chips: ['Sin app', 'Efectivo o tarjeta al recibir', 'Equipo bilingüe'],
-    waText: '¡Hola! Necesito una entrega discreta en Los Cabos.',
+    waText: '¡Hola! Quisiera pedir productos de libre venta a domicilio en Los Cabos.',
   },
   desk: {
     title: 'Mesa de entregas en Los Cabos',
-    sub: 'Ayuda rápida y discreta donde te hospedes.',
+    sub: 'Ayuda de farmacia rápida y confiable donde te hospedes.',
     stats: [
       ['24/7', 'Coordinación de entregas'],
       ['30–90', 'Minutos estimados'],
@@ -184,10 +227,10 @@ const es: Dict = {
   standard: {
     eyebrow: 'El estándar Pharmacy Cabo',
     title: 'Coordinación clara con el trato de un hotel de lujo.',
-    text: 'Cada pedido lo atiende un equipo bilingüe real, con precios claros, coordinación discreta y entrega adaptada a tu propiedad o embarcación.',
+    text: 'Cada pedido lo atiende un equipo bilingüe real, con precios transparentes, coordinación confiable y entrega adaptada a tu propiedad o embarcación.',
     items: [
       ['Equipo bilingüe', 'Atención en inglés y español'],
-      ['Entrega discreta', 'Lobby, suite o villa'],
+      ['Entrega confiable', 'Lobby, suite o villa'],
       ['Zonas de lujo', 'Palmilla, Pedregal, Corredor'],
       ['Servicio a yates', 'Abastecimiento en marina bajo pedido'],
     ],
@@ -205,16 +248,16 @@ const es: Dict = {
     items: [
       ['Farmacia y bienestar', 'Productos de libre venta, primeros auxilios, cuidado personal, hidratación y bienestar diario, coordinados por nuestro equipo bilingüe.'],
       ['Esenciales de playa', 'Protector solar biodegradable, aloe, rash guards, sombreros, hidratación y artículos de comodidad para viaje.'],
-      ['Alimentos y bebidas', 'Despensa, mezcladores premium, licores, botanas y provisiones frescas para tu villa, yate o minibar.'],
+      ['Alimentos y bebidas', 'Despensa, botanas, hidratación y provisiones frescas para tu villa, yate o habitación.'],
       ['Pedidos especiales', 'Artículos de viaje olvidados, cuidado personal, encargos de conveniencia y necesidades de cada huésped.'],
     ],
   },
   banner: {
-    eyebrow: 'Entrega discreta en hotel, villa y yate',
+    eyebrow: 'Farmacia con licencia a domicilio en hoteles, villas y marinas',
     title: 'Un servicio premium que se siente sencillo.',
     text: 'Desde el primer mensaje de WhatsApp hasta la entrega final, nuestro equipo bilingüe coordina cada detalle con el cuidado que esperan los huéspedes y concierges de Los Cabos.',
     cta: 'Coordinar una entrega',
-    waText: '¡Hola! Necesito una entrega discreta en Los Cabos.',
+    waText: '¡Hola! Quisiera pedir productos de libre venta a domicilio en Los Cabos.',
   },
   products: {
     eyebrow: 'Esenciales del día a día',
@@ -230,6 +273,7 @@ const es: Dict = {
     count: (n: number) => `${n} productos`,
     waText: (name: string) => `¡Hola! Quisiera pedir: ${name}`,
     noPrice: 'Precio por consulta',
+    otcNote: 'Solo entregamos productos de libre venta. Los medicamentos con receta no están disponibles a través de este servicio.',
   },
   steps: {
     eyebrow: 'Sencillo desde el primer mensaje',
@@ -238,7 +282,7 @@ const es: Dict = {
     items: [
       ['Escríbenos', 'Contáctanos por WhatsApp o teléfono y cuéntanos qué necesitas, además de tu propiedad, suite, portón o posición en marina.'],
       ['Confirma y paga', 'Recibe una cotización clara con fotos. Paga con tarjeta, transferencia o efectivo en USD o MXN.'],
-      ['Recibe con discreción', 'Coordinamos la entrega en tu hotel, villa o yate, normalmente en 30–90 minutos.'],
+      ['Recibe tu pedido', 'Coordinamos la entrega en tu hotel, villa o yate, normalmente en 30–90 minutos.'],
     ],
   },
   trusted: en.trusted,
@@ -263,7 +307,6 @@ const es: Dict = {
     items: [
       ['Nos dimos cuenta de que olvidamos varios artículos de viaje. Respondieron en menos de un minuto y lo tuvimos en la villa en 40. Excelente servicio.', 'Jennifer M.', 'Pedregal · Viaje familiar'],
       ['Abastecimos nuestro yate con ellos tres veces esta temporada. Confiables, profesionales y traen exactamente lo que pides.', 'David R.', 'Marina CSL · Renta de yate'],
-      ['La discreción importa. Nuestro concierge los recomienda y ahora entiendo por qué — sin incomodidades, sin preguntas, solo servicio.', 'Sarah K.', 'Palmilla · Huésped frecuente'],
     ],
   },
   faq: {
@@ -280,6 +323,49 @@ const es: Dict = {
   },
   final: { eyebrow: 'Listos cuando tú lo estés', title: 'Déjanos resolverlo.', text: 'Un solo mensaje de WhatsApp es todo lo que necesitas.', cta: 'Empezar en WhatsApp', waText: '¡Hola! Necesito ayuda de Pharmacy Cabo.' },
   footer: { line: 'Tienda 8AM–6PM · Entregas 24/7 · Los Cabos, B.C.S., México', rights: 'Todos los derechos reservados.' },
+  licensed: {
+    eyebrow: 'Farmacia con licencia',
+    title: 'Una farmacia con licencia que puedes verificar.',
+    text: 'Pharmacy Cabo opera como farmacia con licencia en Los Cabos, B.C.S., México. Entregamos únicamente productos de libre venta.',
+    labels: {
+      legalName: 'Razón social',
+      address: 'Dirección física',
+      cofepris: 'Licencia sanitaria / aviso de funcionamiento COFEPRIS no.',
+      responsibleName: 'Responsable sanitario',
+      responsibleLicense: 'Cédula profesional',
+      storeHours: 'Horario de la farmacia',
+    },
+  },
+  legal: {
+    link: 'Privacidad y términos',
+    title: 'Aviso de privacidad y términos',
+    draft: 'Plantilla básica — pídele a tu asesor legal que la revise antes de usarla.',
+    updated: 'Última actualización',
+    privacy: {
+      title: 'Aviso de privacidad',
+      sections: [
+        ['Responsable', 'El responsable del tratamiento de datos es la persona moral indicada en la sección "Farmacia con licencia" de este sitio.'],
+        ['Datos que recabamos', 'Nombre, número de teléfono, dirección de entrega o datos de propiedad/marina, y el contenido de tus pedidos y mensajes enviados por WhatsApp, teléfono o este sitio.'],
+        ['Para qué los usamos', 'Para confirmar disponibilidad y precios, coordinar y completar entregas, dar atención al cliente y cumplir nuestras obligaciones legales y sanitarias. No vendemos tus datos personales.'],
+        ['Transferencias', 'Solo compartimos datos con los proveedores de entrega y pago necesarios para cumplir tu pedido, y con autoridades cuando la ley lo exige.'],
+        ['Tus derechos', 'Puedes acceder, rectificar, cancelar u oponerte al uso de tus datos (derechos ARCO) en cualquier momento escribiendo al contacto de privacidad.'],
+        ['Contacto', 'Contacto de privacidad'],
+        ['Cambios', 'Podemos actualizar este aviso. La versión más reciente siempre estará publicada en esta página.'],
+      ],
+    },
+    terms: {
+      title: 'Términos del servicio',
+      sections: [
+        ['Solo productos de libre venta', 'Solo entregamos productos de libre venta. Los medicamentos con receta no están disponibles a través de este servicio. No vendemos ni entregamos sustancias controladas.'],
+        ['Pedidos y disponibilidad', 'Los pedidos se hacen por WhatsApp o teléfono. La disponibilidad y el precio final se confirman contigo antes del despacho.'],
+        ['Precios y pago', 'Los precios se cotizan en USD o MXN. El costo de envío depende de la zona y el horario y se informa antes del despacho. Aceptamos tarjeta, transferencia o efectivo.'],
+        ['Entrega', 'Los tiempos de entrega son estimados y pueden variar por tráfico, clima y ubicación. Alguien debe recibir el pedido en el punto de entrega acordado.'],
+        ['Devoluciones', 'Por razones de salud y seguridad, los productos no admiten devolución una vez entregados, salvo que estén dañados, defectuosos o sean incorrectos. Contáctanos de inmediato si ocurre.'],
+        ['Información de salud', 'La información de este sitio no es consejo médico. Lee las etiquetas y consulta a un profesional de la salud o a nuestro responsable sanitario si tienes dudas.'],
+        ['Ley aplicable', 'Estos términos se rigen por las leyes de México y los tribunales de Baja California Sur.'],
+      ],
+    },
+  },
   categories: {
     'skin-care': 'Cuidado de la piel',
     'sun-care': 'Protección solar',
