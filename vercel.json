@@ -1,0 +1,169 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://www.rmcpharmacy.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/",
+      "destination": "https://www.rmcpharmacy.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en",
+      "destination": "https://www.rmcpharmacy.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/delivery/",
+      "destination": "https://www.rmcpharmacy.com/delivery",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/delivery",
+      "destination": "https://www.rmcpharmacy.com/delivery",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/doctor-visit/",
+      "destination": "https://www.rmcpharmacy.com/services/doctor-consultation",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/doctor-visit",
+      "destination": "https://www.rmcpharmacy.com/services/doctor-consultation",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/iv-therapy/",
+      "destination": "https://www.rmcpharmacy.com/services/iv-therapy",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/iv-therapy",
+      "destination": "https://www.rmcpharmacy.com/services/iv-therapy",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/legal/",
+      "destination": "https://www.rmcpharmacy.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/legal",
+      "destination": "https://www.rmcpharmacy.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/products/",
+      "destination": "https://www.rmcpharmacy.com/pharmacy",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/products",
+      "destination": "https://www.rmcpharmacy.com/pharmacy",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/video-consultation/",
+      "destination": "https://www.rmcpharmacy.com/services/doctor-consultation",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/video-consultation",
+      "destination": "https://www.rmcpharmacy.com/services/doctor-consultation",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/",
+      "destination": "https://www.rmcpharmacy.com/es",
+      "statusCode": 301
+    },
+    {
+      "source": "/es",
+      "destination": "https://www.rmcpharmacy.com/es",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/entrega/",
+      "destination": "https://www.rmcpharmacy.com/es/entrega",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/entrega",
+      "destination": "https://www.rmcpharmacy.com/es/entrega",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/consulta-medica/",
+      "destination": "https://www.rmcpharmacy.com/es/servicios/consulta-medica",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/consulta-medica",
+      "destination": "https://www.rmcpharmacy.com/es/servicios/consulta-medica",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/sueroterapia/",
+      "destination": "https://www.rmcpharmacy.com/es/servicios/terapia-iv",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/sueroterapia",
+      "destination": "https://www.rmcpharmacy.com/es/servicios/terapia-iv",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/videoconsulta/",
+      "destination": "https://www.rmcpharmacy.com/es/servicios/consulta-medica",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/videoconsulta",
+      "destination": "https://www.rmcpharmacy.com/es/servicios/consulta-medica",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/products/",
+      "destination": "https://www.rmcpharmacy.com/es/farmacia",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/products",
+      "destination": "https://www.rmcpharmacy.com/es/farmacia",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/legal/",
+      "destination": "https://www.rmcpharmacy.com/es",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/legal",
+      "destination": "https://www.rmcpharmacy.com/es",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/",
+      "destination": "https://www.rmcpharmacy.com/pharmacy",
+      "statusCode": 301
+    },
+    {
+      "source": "/products",
+      "destination": "https://www.rmcpharmacy.com/pharmacy",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/:path*",
+      "destination": "https://www.rmcpharmacy.com/es",
+      "statusCode": 301
+    },
+    {
+      "source": "/((?!robots\\.txt|sitemap\\.xml|sitemap-.*\\.xml).*)",
+      "destination": "https://www.rmcpharmacy.com/",
+      "statusCode": 301
+    }
+  ]
+}
