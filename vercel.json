@@ -156,7 +156,7 @@
       "statusCode": 301
     },
     {
-      "source": "/es/:path*",
+      "source": "/es/(.*)",
       "destination": "https://www.rmcpharmacy.com/es",
       "statusCode": 301
     },
