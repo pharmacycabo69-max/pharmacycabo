@@ -18,4 +18,4 @@ El dominio es solo una redirección (decisión del propietario, V4 del 2026-11-2
 - Mantener el dominio y estas reglas al menos 12 meses (recomendado: de forma permanente).
 
 ## Reversión
-Revertir el commit de fusión (`git revert -m 1 <sha>`) o, en Vercel → Deployments, usar "Instant Rollback" al despliegue anterior. Las reglas anteriores quedan en el historial (`e43e2e7`).
+En Vercel → Deployments, usar "Instant Rollback" al despliegue anterior (inmediato). Después, en GitHub, botón "Revert" del PR fusionado, para que `main` coincida. No usar `git` local en Windows: el historial tiene nombres de archivo con `?` que impiden la copia de trabajo. Las reglas anteriores están en el commit `e43e2e7`.
